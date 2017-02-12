@@ -1,7 +1,12 @@
+body {
+  margin: 0;
+  }
+
 .col-1 {
   float: left;
   width: 8.33333333%;
-}
+ }
+
 
 .col-2 {
   float: left;
@@ -83,3 +88,44 @@ using border-box the padding and border are taken into account.*/
   content: "";
   clear: both;
 } /* prevent collapsing margins when using floats*/
+
+body {
+  margin: 0;
+  }
+
+h1 p {
+  margin: 0;
+  font-family: 'Josefin', sans-serif;
+  font-weight: bold;
+  }
+
+nav li {
+  display: inline-block;
+}
+
+nav {
+  background-color: #778899;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  text-align: center;   
+}
+
+nav li a { 
+  line-height: 35px;
+  text-decoration: none;
+  color: #FFFAF0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 18px;
+  font-family: 'Josefin', sans-serif;
+   
+}
+
+#first-row {
+ margin-top: 80px;
+}
